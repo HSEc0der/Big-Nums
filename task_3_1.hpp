@@ -57,15 +57,9 @@ public:
         }
         return obj3;
     }
-    //template<std::size_t M,std::size_t N>
-    //friend BigNum<M+N-1> operator*(const BigNum<M>& a,const BigNum<N>& b);
 };
 
-//template<std::size_t R = 0,std::size_t M,std::size_t N>
-//BigNum<R?R:M+N> operator*(const BigNum<M>& a,const BigNum<N>& b) какое правильное значение??
-//{
 
-//}
 
 }
 #endif
